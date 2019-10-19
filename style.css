@@ -1,0 +1,43 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a:hover{
+	opacity: 1;
+}
+
+a, h1{
+text-decoration: none;
+color: #283;
+}
+
+body{
+
+	font-family: 'Lobster';
+
+}
+.three{
+	background: linear-gradient(45deg,#658,#3943);
+}
+ div{
+    background-color: #fff;
+    width:70%;
+    margin:auto;
+ }
+ .main{
+     margin-top: 20px;
+     box-shadow: 0 0 10px 1px #900;
+ }
+
+ img{
+ 	width: 100%;
+ 	height: auto;
+ }
+
+ ul{
+ 	text-align: center;
+ 	list-style: none;
+ 	font-size: 25px;
+ 	margin-top: 20px;
+ }
