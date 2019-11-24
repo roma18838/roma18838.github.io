@@ -1,0 +1,92 @@
+
+*{
+   margin:  0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing:border-box;
+}
+body{
+
+}
+.main{
+   background-color:#812;
+   width:95%;
+   max-width: 1000px;
+   display: flex;
+   flex-wrap:  wrap;
+   margin:  auto;
+   box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+}
+.item {
+      max-height: 500px;
+      max-width: 500px;
+      height:calc(95vw / 2 / 16 * 9);
+      width: calc(90vw - 10px);
+      background-position:center; 
+      background-size:cover;
+      -webkit-background-size:cover;
+}
+.img-1{
+	background-image: url('https://source.unsplash.com/1280x720/?elephant'); 
+}
+.img-2{
+	background-image: url('https://source.unsplash.com/1280x720/?cat'); 
+}
+.img-3{
+	background-image: url('https://source.unsplash.com/1280x720/?dog'); 
+}
+.img-4{
+	background-image: url('https://source.unsplash.com/1280x720/?work'); 
+}
+.img-5{
+	background-image: url('https://source.unsplash.com/1280x720/?cow'); 
+}
+.img-6{
+	background-image: url('https://source.unsplash.com/1280x720/?home'); 
+}
+.img-7{
+	background-image: url('https://source.unsplash.com/1280x720/?phone'); 
+}
+.img-8{
+	background-image: url('https://source.unsplash.com/1280x720/?clock'); 
+}
+.img-9{
+	background-image: url('https://source.unsplash.com/1280x720/?dinosaur'); 
+}
+.img-10{
+	background-image: url('https://source.unsplash.com/1280x720/?bird'); 
+}
+.img-11{
+	background-image: url('https://source.unsplash.com/1280x720/?diamond'); 
+}
+.img-12{
+   background-image: url('https://source.unsplash.com/1280x720/?internet'); 
+}
+.img-13{
+   background-image: url('https://source.unsplash.com/1280x720/?fox'); 
+}
+.img-14{
+   background-image: url('https://source.unsplash.com/1280x720/?fox'); 
+}
+.heading{
+ font-size:40px;
+ text-align: center;
+ width:100%;
+ padding: 30px 0;
+ font-family:'lobter','cursive';
+  }
+
+.ing-link{
+   display: block;
+   opacity: 0.65;
+   transition: 0.4s ease,transform 0.2s ease-in,box-shadow 0.3s ease-out;
+   margin: 5px;
+}
+.img-link:hover {
+    opacity:1;
+    transform: scale(1.2) rotate(5deg);
+    z-index:10;
+    box-shadow: 0 0 200px 30px rgba(0,0,0,0.6)
+}
+
